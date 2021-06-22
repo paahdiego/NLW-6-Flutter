@@ -57,11 +57,11 @@
 1. Crie um clone desse repo e acesse o diretório clonado.
 
    ```sh
-   git clone https://github.com/paahdiego/NLW-5-Flutter.git
+   git clone https://github.com/paahdiego/NLW-6-Flutter.git
 
    ou
 
-   git clone git@github.com:paahdiego/NLW-5-Flutter.git
+   git clone git@github.com:paahdiego/NLW-6-Flutter.git
    ```
 
 2. Instalação de dependencias
