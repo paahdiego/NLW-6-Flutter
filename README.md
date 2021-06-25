@@ -40,7 +40,7 @@
   </p>
   </br>
 
-  O App Payflow permite que o usuário adicione e controle seus boletos em um unico lugar. Conta com um scanner de código de barras e também tem a opção de adicioná-lo manualmente através do teclado. O login no app é feito por Login Social Google.
+O PayFlow se trata de um app mobile feito em Flutter 💙 para Gerenciamento de Boletos, contendo recursos como o uso de câmera e galeria, Machine Leaning com MLKit, Firebase Core e SignIn, Animações e Estilizações Personalizadas, entre vários outros pontos, como o uso do SharedPreferences.
 
 ### Tecnologias utilizadas
 
