@@ -34,7 +34,9 @@
 ## Sobre o Projeto
 
   <p align="center">
-  <img src="assets/images/home.PNG" alt="HomePage" width="250">
+  <img src="./.github/home.png" alt="HomePage" width="250">
+    <img src="./.github/scanner.png" alt="HomePage" width="250">
+      <img src="./.github/form.png" alt="HomePage" width="250">
   </p>
   </br>
   Texto sobre o app.
