@@ -77,9 +77,11 @@ class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
               ),
               bottomNavigationBar: SetLabelButtons(
                 primaryLabel: "Inserir código do boleto",
-                primaryOnPressed: () {},
+                primaryOnPressed: () {
+                  Navigator.pushReplacementNamed(context, "/insert_boleto");
+                },
                 secondaryLabel: "Adicionar da galeria",
-                secondaryOnPressed: () {},
+                secondaryOnPressed: controller.scanWithImagePicker,
               ),
             ),
           ),
@@ -93,7 +95,9 @@ class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
                   primaryOnPressed: () {
                     controller.getAvailableCameras();
                   },
-                  secondaryOnPressed: () {},
+                  secondaryOnPressed: () {
+                    Navigator.pushReplacementNamed(context, "/insert_boleto");
+                  },
                   title: "Não foi possível identificar um código de barras",
                   subtitle:
                       "Tente escanear novamente ou digite o código do seu boleto.",
