@@ -40,7 +40,7 @@
   </p>
   </br>
 
-  O App Payflow permite que o usuário adicione e controle seus boletos em um unico lugar. Conta com um scanner de código de barras e também tem a opção de adicioná-lo manualmente através do teclado.
+  O App Payflow permite que o usuário adicione e controle seus boletos em um unico lugar. Conta com um scanner de código de barras e também tem a opção de adicioná-lo manualmente através do teclado. O login no app é feito por Login Social Google.
 
 ### Tecnologias utilizadas
 
