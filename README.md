@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 
-  <img src="./.github/logo.png" alt="Payflow" width="150">
+  <img src="./.github/logofull.png" alt="Payflow" width="150">
 
   <h3 align="center">Payflow</h3>
 
@@ -39,7 +39,8 @@
       <img src="./.github/form.png" alt="HomePage" width="250">
   </p>
   </br>
-  Texto sobre o app.
+
+  O App Payflow permite que o usuário adicione e controle seus boletos em um unico lugar. Conta com um scanner de código de barras e também tem a opção de adicioná-lo manualmente através do teclado.
 
 ### Tecnologias utilizadas
 
