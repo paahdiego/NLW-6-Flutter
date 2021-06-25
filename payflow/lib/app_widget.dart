@@ -5,6 +5,7 @@ import 'package:payflow/modules/home/home_page.dart';
 import 'package:payflow/modules/insert_boleto/insert_boleto.dart';
 import 'package:payflow/modules/login/login_page.dart';
 import 'package:payflow/modules/splash/splash_page.dart';
+import 'package:payflow/shared/models/user_model.dart';
 import 'package:payflow/shared/theme/app_colors.dart';
 
 class AppWidget extends StatefulWidget {
@@ -32,7 +33,9 @@ class _AppWidgetState extends State<AppWidget> {
       initialRoute: "/splash",
       routes: {
         "/splash": (context) => SplashPage(),
-        "/home": (context) => HomePage(),
+        "/home": (context) => HomePage(
+              user: ModalRoute.of(context)!.settings.arguments as UserModel,
+            ),
         "/login": (context) => LoginPage(),
         "/barcode_scanner": (context) => BarcodeScannerPage(),
         "/insert_boleto": (context) => InsertBoletoPage(
